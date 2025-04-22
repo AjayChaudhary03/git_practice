@@ -3,7 +3,8 @@ jobs:
     # first-job: 
     #     name: my_push_event
     my_push_event:
-        runs-on: windows-latest
+        runs-on: ubuntu-latest
+        container: node:17.6.0
         steps:
             - run: node --version
             - run: npm --version
