@@ -1,8 +1,10 @@
+name: Node Continuous Integration
 on: push
 jobs:
     # first-job: 
     #     name: my_push_event
     my_push_event:
+        name: display name of my_push_event
         runs-on: ubuntu-latest
         container: node:17.6.0
         steps:
